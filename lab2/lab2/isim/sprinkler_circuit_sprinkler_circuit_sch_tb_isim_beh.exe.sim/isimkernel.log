@@ -1,0 +1,29 @@
+Command line:
+   sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51203
+
+Wed Jan 21 10:30:46 2015
+
+
+ Elaboration Time: 0.140401 sec
+
+ Current Memory Usage: 665.17 Meg
+
+ Total Signals          : 98
+ Total Nets             : 40
+ Total Signal Drivers   : 15
+ Total Blocks           : 16
+ Total Primitive Blocks : 14
+ Total Processes        : 15
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 524
+Total Line Count : 27
+
+ Total Simulation Time: 0.202802 sec
+
+ Current Memory Usage: 665.17 Meg
+
+Wed Jan 21 10:33:02 2015
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "Z:/lab2/lab2/sprinkler_circuit_sprinkler_circuit_sch_tb_isim_beh.exe" -prj "Z:/lab2/lab2/sprinkler_circuit_sprinkler_circuit_sch_tb_beh.prj" "work.sprinkler_circuit_sprinkler_circuit_sch_tb" 

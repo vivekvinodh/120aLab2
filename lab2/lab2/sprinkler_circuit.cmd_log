@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "Z:/lab2/lab2/sprinkler_circuit.xst" -ofn "Z:/lab2/lab2/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sprinkler_constraints.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sprinkler_constraints.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sprinkler_constraints.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+xst -intstyle ise -ifn "Z:/lab2/lab2/sprinkler_circuit.xst" -ofn "Z:/lab2/lab2/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sprinkler_constraints.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+xst -intstyle ise -ifn "Z:/lab2/lab2/sprinkler_circuit.xst" -ofn "Z:/lab2/lab2/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sprinkler_constraints.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf -ucf sprinkler_constraints.ucf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 

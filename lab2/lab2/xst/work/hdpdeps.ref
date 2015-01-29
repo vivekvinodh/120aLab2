@@ -1,0 +1,9 @@
+V3 6
+FL //toaster.engr.ucr.edu/classacc2199/lab2/lab2/sprinkler_circuit.vhf 2015/01/21.09:03:04 P.20131013
+EN work/sprinkler_circuit 1421861515 \
+      FL //toaster.engr.ucr.edu/classacc2199/lab2/lab2/sprinkler_circuit.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sprinkler_circuit/BEHAVIORAL 1421861516 \
+      FL //toaster.engr.ucr.edu/classacc2199/lab2/lab2/sprinkler_circuit.vhf \
+      EN work/sprinkler_circuit 1421861515 CP INV CP AND4

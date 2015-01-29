@@ -1,0 +1,2 @@
+vhdl work "sprinkler_circuit.vhf"
+vhdl work "sprinkler_tb.vhd"

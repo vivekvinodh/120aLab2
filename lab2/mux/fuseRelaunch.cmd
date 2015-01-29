@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "Z:/lab2/mux/mux_schem_mux_schem_sch_tb_isim_beh.exe" -prj "Z:/lab2/mux/mux_schem_mux_schem_sch_tb_beh.prj" "work.mux_schem_mux_schem_sch_tb" 

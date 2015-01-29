@@ -1,0 +1,2 @@
+vhdl isim_temp "sprinkler_circuit.vhf"
+vhdl isim_temp "sprinkler_tb.vhd"
